@@ -88,6 +88,12 @@ Each requirement from the task, and the evidence for it:
 
 ## Lab Architecture
 
+![Reference lab architecture from the course](./7-lab-architecture.png)
+
+*Reference architecture from the Networkwalks course material. Kali Linux (10.0.0.2) is the Project Module 1 deliverable. The other VMs shown are optional or built in later projects.*
+
+The diagram below shows what was built for this project:
+
 ```mermaid
 flowchart TD
     H["Windows host<br/>VirtualBox"] --> N["NAT Network: NatNetwork1<br/>10.0.0.0/24, gateway 10.0.0.1"]
@@ -232,6 +238,7 @@ The Internet tests also pass with the backup adapter disconnected, which shows t
 +-- 4-screenshot-kali-ip.png
 +-- 5-screenshot-kali-connectivity.png
 +-- 6-screenshot-snapshot.png
++-- 7-lab-architecture.png
 ```
 
 ## Security and Ethical Use
