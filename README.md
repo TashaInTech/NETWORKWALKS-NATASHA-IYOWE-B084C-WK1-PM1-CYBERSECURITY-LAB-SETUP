@@ -188,7 +188,6 @@ Inspect what VirtualBox actually has configured:
 | Gateway | `ping -c 3 10.0.0.1` | Replies | Pass |
 | Internet by IP | `ping -c 3 8.8.8.8` | Replies | Pass |
 | DNS | `ping -c 3 google.com` | Resolves, replies | Pass |
-| HTTPS | `curl -I https://www.kali.org` | HTTP/2 200 | Pass |
 | Persistence | Reboot, then `ip -br addr` | Static IP retained | Pass |
 
 The Internet tests also pass with the backup adapter disconnected, which shows that the NAT Network alone provides full Internet access.
