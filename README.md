@@ -90,8 +90,6 @@ Each requirement from the task, and the evidence for it:
 
 ![Reference lab architecture from the course](./7-lab-architecture.png)
 
-*Reference architecture from the Networkwalks course material. Kali Linux (10.0.0.2) is the Project Module 1 deliverable. The other VMs shown are optional or built in later projects.*
-
 The diagram below shows what was built for this project:
 
 ```mermaid
